@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe ThrowDice, type: :model do
 
+  #expect a string of numbers separated by commas, ex. "6,8,10"
   describe '#call' do
 
     context "with a single dice with 6 sides" do
